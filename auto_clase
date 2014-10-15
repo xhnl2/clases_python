@@ -1,0 +1,35 @@
+class auto():
+    """abstraccion a objeto de un Auto"""
+    gasolina = 0
+    def __init__(self, gasolina):
+        Auto.gasolina = gasolina
+        print "tenemos", gasolina, "litros"
+
+    @classmethod
+    def arrancar(cls,gasolina):
+        if gasolina > 0:
+            print "arranca"
+        esle:
+            print "no arranca"
+
+    @classmethod
+    ef conducir(cls,gasolina):
+       if gasolina > 0:
+           gasolina -= 1
+           print "quedan", self.gasolina, "litros"
+       else:
+           print "no se mueve..."
+       mi_auto = Auto(10)
+       print mi_Auto(5)
+
+#### cuanta gasolina tenemos
+print mi_Auto.gasolina
+mi_Auto.arranca()
+# Arrancamos el carro
+mi_Auto.conducir()
+mi_Auto.conducir()
+mi_Auto.conducir()
+mi_Auto.conducir()
+mi_Auto.conducir()
+mi_Auto.conducir()"""
+

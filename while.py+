@@ -1,0 +1,7 @@
+1 # -*- coding: utf-8 -*-
+2 compra = 100
+3 if compra > 100:
+4     print 'esta barato'
+5 else:
+6    print 'dame dos'
+
